@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document  */
-/* Pink Color */
+/* Pink Color #EF2E80*/
 
 @font-face {
 	font-family: Denmark;
@@ -10,18 +10,73 @@
 	font-family: Roboto;
 	src: url(../Roboto-Light.ttf);
 }
+#sponsorstitle {
+	color: #FFFFFF;
+	background: #000000;
+}
+
+#sponsorsbg {
+	 background: linear-gradient(to bottom, #000000 0%, #FFFFFF 100%);
+}
+
+#solidworks {
+	border: 2px solid white;
+	background-color: #ED3126;
+	border-radius: 25px;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+#solidworksinfo {
+	padding-left: 20px;
+	
+}
 
 #leftpadding {
 	padding-top: 5px;
 	padding-left: 10px;
 }
 
+#homep {
+	margin-right: 90px;
+	padding-left: 900px;
+	color: #FFFFFF;
+	font-size: 115%;
+	float: right;
+	display: inline-block;
+}
+
+#wwppic {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	padding-left: 10px;
+}
+
 #middlehome {
-	
+	background: linear-gradient(120deg, green, yellow);
+}
+
+a:link{
+  color:#FFFFFF;
+}
+a:visited{
+  color:#FFFFFF;
+}
+a:hover{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#rightpadding {
+	padding-right: 5px;
 }
 
 .denmark {
 	font-family: Denmark;
+	color: #FFFFFF;
 }
 
 .roboto {
@@ -82,7 +137,7 @@ nav li {
 nav a {
 	color: #FFFFFF;
 	display: block;
-	font: normal 13px/50px Arial, Helvetica, sans-serif;
+	font: normal 13px/50px Roboto;
 	padding: 0 25px;
 	text-align: center;
 	text-decoration: none;
